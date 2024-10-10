@@ -1,0 +1,107 @@
+
+
+body {
+  background-color: #E7E5FF;
+  color: #593EFF;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: start;
+  width: 400px;
+  height: 100%;
+  font-family: 'Figtree', sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #593EFF;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  background-color: #593EFF;
+  color: white;
+}
+
+/*button:focus,
+button:focus-visible {
+  background-color: #9D7979;
+}*/
+
+.btn-icon {
+  font-size: 20px;
+  padding: 12px;
+  background-color: transparent;
+  width: 50px;
+  color: #593EFF;
+}
+
+/* UNIVERSAL */
+.text-h2{
+  margin: 10px;
+  color: #593EFF;
+  font-size: 30px;
+}
+.text-p{
+  font-size: 14px;
+  color: #593EFF;
+}
+.convert-to-red{
+  color: #ff6c52;
+}
+.convert-to-green{
+  color: #09CC85;
+}
+.input {
+  background-color: #09CC85;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.add-task{
+  border-radius: 50%;
+  color: #593EFF;
+  background-color: transparent;
+  font-size: 60px;
+  padding: 0 5px;
+}
+
+@media only screen and (min-width:400px) { 
+  
+  body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-p{
+    font-size: 16px;
+    color: #593EFF;
+  }
+  .text-h2{
+    margin: 10px;
+    color: #593EFF;
+    font-size: 40px;
+  }
+  .text-h3{
+    color: #593EFF;
+    font-size: 24px;
+  }
+}
+.text-center{
+  text-align: center;
+}
